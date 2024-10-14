@@ -53,16 +53,26 @@ body {
     background-color: lightgray; 
 }
 
-.btn {
-  
-        display: inline-block;
-        padding: 0.4em 0.8em;
-        border-radius: 70px;
-        padding: 5px 10px;
-        background-color: #ffff;
+.blue {
+    color: blue;
+}
+
+.pink {color: pink;}
+
+ .btn {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50px;
+    align-items: center;
+    /* padding: 5px 10px; */
+    text-decoration: none;
+    background-color: #ffff;
+    color: blue;
         }
 
-
+   .s-text {
+    display: none;
+   }     
 
 /* HEADER */
 
@@ -104,13 +114,19 @@ ul {
 }
 
 li {
-    padding: 10px 20px;
+    padding: 15px 20px;
 }
 
-.social-row ul{
+.ul-social {
+    list-style-type: none;
+    /* Removes bullet points */
+    padding: 20px;
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
+    /* Align items horizontally */
+    justify-content: space-around;
+    /* Center items horizontally */
+
+    /* Add spacing between buttons */
 }
 
 
@@ -118,10 +134,32 @@ li {
     display: none;
 }
 
-
 /* PRESENTATION SECTION */
 
+.col-img {
+    width: 100%;
+    /* Column width */
+    text-align: center;
+    /* Centering content horizontally */
+    margin-bottom: 10px;
+}
 
+.divider {
+    width: 20%;
+    border: 1px solid orange;
+    margin-bottom: 20px;
+}
+
+.img-tiramisu {
+    width: 60%;;
+}
+
+.col-presentation p {
+    width: 100%;
+    line-height: 1.5rem;
+    color:dimgray;
+
+}
 
 /************************************************
     SOLUZIONE RESPONSIVE TABLET
@@ -173,19 +211,26 @@ li {
         width: calc(100% / 3);
 }
 
-}
-
 /* BANNER SECTION */
 
 .banner-img {
     display: block;
+    padding-bottom: 20px;
 }
 
 /* PRESENTATION SECTION */
 
-img-tiramisu {
+.img-tiramisu {
+    width: 30%;
+    float: left;
+    padding-right: 10px;
+}
 
 }
+
+
+
+
 
  /************************************************
     SOLUZIONE RESPONSIVE DESKTOP
@@ -242,4 +287,17 @@ img-tiramisu {
         width: 40%;
         /* padding: */
     }
+
+    /* social section */
+
+
+    .social-row ul {
+        padding-bottom: 15px;
+    }
+
+        .s-text {
+            display: inline-block;
+        }
+
 }
+
