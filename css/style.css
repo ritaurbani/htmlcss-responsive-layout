@@ -15,14 +15,31 @@ img {
 /* COMMON */
 /* Layout */
 
+h3 {
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+    padding-top: 1rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+}
+
+.style {
+    font-family: 'Nerko One', cursive;
+}
+
 .container {
     width: 100%;
     padding: 0 20px;
+
+    /* debug */
+    border: 1px solid black;
 }
 
 body {
-    font-family: Montserrat,'Helvetica Neue',sans-serif;
-   
+    font-family: Montserrat,'Helvetica Neue',sans-serif;  
 }
 
 
@@ -36,9 +53,11 @@ body {
      background-color:ghostwhite;
 }
 
+/* MAIN */
 
-
-
+.hide{
+    display:none;
+}
 
 
 
@@ -63,6 +82,22 @@ body {
     
 }
 
+.title-block {
+    
+    display: flex;
+  
+    
+    
+}
+
+/* MAIN */
+
+@media screen and (min-width: 768px) {
+
+
+
+}
+
 
 
 
@@ -83,5 +118,20 @@ body {
         font-size:smaller
       
     }
+
+}
+
+/* MAIN */
+
+@media screen and (min-width: 992px
+
+/* .container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+} */
+
+
+
 
 }
