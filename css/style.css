@@ -158,8 +158,37 @@ li {
     width: 100%;
     line-height: 1.5rem;
     color:dimgray;
+    padding-bottom: 60px;
 
 }
+
+/* FOOTER */
+
+.web-footer {
+    
+    background-color: blueviolet;
+    color: #ffff;
+}
+
+.footer-top {
+    text-align: center;
+}
+
+
+.list-footer {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+
+.list-footer li {
+    padding-left: 5px;
+    
+}
+
+a {color: inherit;}
+
 
 /************************************************
     SOLUZIONE RESPONSIVE TABLET
