@@ -1,0 +1,87 @@
+/************************************************
+    STILE DI BASE: MOBILE
+ ************************************************/
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* COMMON */
+/* Layout */
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+}
+
+body {
+    font-family: Montserrat,'Helvetica Neue',sans-serif;
+   
+}
+
+
+/* HEADER */
+
+.site-header { 
+    padding: 0 20px;
+    text-align: center;
+    line-height: 70px;
+    color:orange ;
+     background-color:ghostwhite;
+}
+
+
+
+
+
+
+
+
+
+/************************************************
+    SOLUZIONE RESPONSIVE TABLET
+ ************************************************/
+
+/* HEADER */
+
+@media screen and (min-width: 768px) {
+
+.site-header {
+    padding: 0 20px;
+    height: 60px;
+    text-align:left;
+
+    /* font-size; */
+    /* height: ; */
+} 
+    
+}
+
+
+
+
+
+ /************************************************
+    SOLUZIONE RESPONSIVE DESKTOP
+ ************************************************/
+
+
+/* HEADER */
+
+@media screen and (min-width: 992px) {
+
+    .site-header {
+        padding: 0 5px;
+    
+        text-align: left;
+        font-size:smaller
+      
+    }
+
+}
