@@ -55,10 +55,17 @@ body {
 
 /* MAIN */
 
-.hide{
-    display:none;
+.to-hide {
+    display: none;
 }
 
+/* VIDEO SECTION */
+
+.video-col
+.text-col {
+    width: 100%;
+    /* padding: */
+}
 
 
 
@@ -82,22 +89,22 @@ body {
     
 }
 
-.title-block {
-    
-    display: flex;
-  
-    
-    
-}
-
 /* MAIN */
+
+/* TITLE SECTION */
 
 @media screen and (min-width: 768px) {
 
+.container {
+    padding:0 40px;
+}   
 
-
+.to-hide {
+        display: inline-block;
+    }
 }
 
+/* VIDEO SECTION */
 
 
 
@@ -123,15 +130,19 @@ body {
 
 /* MAIN */
 
-@media screen and (min-width: 992px
+/* TITLE SECTION */
+
+@media screen and (min-width: 992px) {
 
 /* .container {
-    width: 1140px;
-    margin: 0 auto;
-    padding: 0 20px;
-} */
+    width: 80px;
+    
+}  */
 
-
-
+.to-hide {
+    display: inline-block;
+}
 
 }
+
+/* VIDEO SECTION */
