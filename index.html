@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
@@ -19,13 +23,12 @@
     <main>
 
         <!-- title section -->
-        
+    <div class="container">
         <section class="tiramisu-section">
-            <div class="container">
-                <div class="title-block">
-                    <h3>DOLCI E DESSERTS </h3>
-                    <h2>Tiramisu'<span class="to-hide"> (Dolce tradizionale)</span></h2>
-                </div>
+            
+            <div class="title-block">
+                <h3>DOLCI E DESSERTS </h3>
+                <h2 class="purple-title">Tiramisu'<span class="to-hide purple-title"> (Dolce tradizionale)</span></h2>
             </div>
         </section>
         
@@ -33,31 +36,71 @@
 
         <!-- video section -->
         <section class="video-section">
-            <div class="container">
-                <div class="card">
-                    <div class="video-col">
-                        <iframe src="https://www.youtube.com/watch?v=JVT900H6s0g" frameborder="0"></iframe>
-                    </div>
-                    <div class="text-col"></div>
+            <div class="card">
+                <div class="video-col">
+                    <iframe src="https://www.youtube.com/embed/JVT900H6s0g" frameborder="0"></iframe>
                 </div>
-            </div>    
+                <div class="text-col">
+                    <ul class=list-title>
+                        <li><h2>In breve</h2></li>
+                    </ul>
+                    <ul class="list-items">
+                        <li>Difficolta':<span class="is-bold">Facile </span></li>
+                        <li>Tempo: <span class="is-bold">40 min</span></li>
+                        <li>Porzione per: <span class="is-bold">8 persone </span></li>
+                        <li>Costo:<span class="is-bold">contenuto</span></li>
+                        <li><span class="is-bold">Note</span>: +2 ore di riposo in frigo</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
         <!-- /video section -->
-
-
+    
         <!-- social section -->
-        <section>
-
+        <section class="social-section">
+            <div class="social-row">
+                <ul>
+                    <li><a href="btn"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="btn"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="btn"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="btn"><i class="fa-brands fa-pinterest"></i></a></li>
+                    <li><a href="btn"><i class="fa-brands fa-youtube"></i></a></li>
+                    
+                </ul>
+            </div>    
         </section>
         <!-- /social section -->
 
+        <!-- banner section -->
+        <section class="banner-section">
+            <div class="banner-row">
+                <img src="./css/img/banner.png" alt="banner" class="banner-img">
+            </div>
+        </section>
+        <!-- /banner section -->
+
         <!-- presentation section -->
-        <section>
+
+        <section class="presentation-section">
+            <div class="row-presentation">
+                <h2>PRESENTATION</h2>
+                <div class="col-img">
+                    <img src="./css/img/tiramisu.jpg" alt="" class="img-tiramisu">
+
+                </div>
+                <div class="col-presentation">
+                    <p></p>
+                </div>
+            </div>
 
         </section>
+        
         <!-- /presentation section -->
 
+
+        
+    </div>
     </main>
 
     <footer></footer>
